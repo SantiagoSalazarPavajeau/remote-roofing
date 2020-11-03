@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import RoofHeader from './RoofHeader';
 
 
 
@@ -7,10 +8,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-          <div className="apple">
-            
-          </div>
-          <div className="pear">
+          <RoofHeader />
+          
+          <div className="white-space">
 
           </div>          
       </header>

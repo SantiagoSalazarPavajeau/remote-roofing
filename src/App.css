@@ -14,7 +14,7 @@
 
 .App-header {
   display: grid;
-  grid-template-columns: [left] 1fr [middle1] 1fr [middle2] 1fr [right];
+  grid-template-columns: [left] 1fr [right];
 }
 
 
@@ -26,12 +26,24 @@
   color: #000;
 }
 
-.apple {
+
+.roof {
   background-image: url("roof.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   grid-column: left/right;
+  z-index: -1;
 }
-.pear {
+.overlap {
+  border-radius: 25px;
+  background: #0059bf;
+  position: absolute;
+  height: 100px;
+  width: 80%;
+  top: 450px;
+  left: 150px;
+}
+.white-area {
   background: whitesmoke;
   grid-column: left/right;
 }
