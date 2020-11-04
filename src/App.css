@@ -21,7 +21,6 @@
 .App-header div {
   display: flex;
   justify-content: center;
-  align-items: center;
   height: 500px;
   color: #000;
 }
@@ -34,11 +33,24 @@
   grid-column: left/right;
   z-index: -1;
 }
+
+.top-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 100%; 
+  height: 50px;
+  padding: 20px;
+}
+
+.logo-div{
+  height: 30px;
+  width: 82px;
+}
 .overlap {
   border-radius: 25px;
   background: #0059bf;
   position: absolute;
-  margin:0 auto;
+  margin: 0 auto;
   height: 150px;
   width: 80%;
   top: 430px;
@@ -47,6 +59,9 @@
   background: whitesmoke;
   grid-column: left/right;
 }
+
+
+
 
 .App-logo {
   height: 40vmin;
