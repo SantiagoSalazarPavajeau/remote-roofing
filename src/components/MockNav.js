@@ -17,15 +17,22 @@ const MockNav = () => {
         //     <Nav.Link eventKey="link-1">Link</Nav.Link>
         // </Nav.Item>
         // </Nav>
-        
-        <span className="top-nav">
-            <div className="logo-div">
+        <>
+        <div className="top-nav">
+            <div className="logo">
             <img src={roofinglogo} height="30px" />
             </div>
             <div className="phone-number">
                 <p> +1800-remote-roofing</p>
             </div>
-        </span>
+            
+            
+
+
+        </div>
+
+        
+        </>
     )
 }
 

@@ -9,9 +9,9 @@ function App() {
       <header className="App-header">
           <RoofHeader />
           
-          <div className="white-space">
+          <header className="white-space">
 
-          </div>          
+          </header>          
       </header>
     </div>
   );

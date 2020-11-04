@@ -4,12 +4,17 @@ import MockNav from './MockNav';
 
 const RoofHeader = () => {
     return(
-        <div className="roof">
+        <header className="roof">
             <MockNav/>
-            <span className="overlap">
+            
+            <div className="routes">
+                
+            </div>
 
-            </span>
-        </div>
+            <div className="overlap">
+
+            </div>
+        </header>
     )
 }
 
