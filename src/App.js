@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import RoofHeader from './RoofHeader';
+import RoofHeader from './components/RoofHeader';
 
 
 
