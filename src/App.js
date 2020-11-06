@@ -10,7 +10,9 @@ function App() {
           <RoofHeader />
           
           <header className="white-space">
+            <div className="overlap">
 
+            </div>
           </header>          
       </header>
     </div>

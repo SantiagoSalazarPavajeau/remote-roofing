@@ -7,13 +7,9 @@ const RoofHeader = () => {
         <header className="roof">
             <MockNav/>
             
-            <div className="routes">
-                
-            </div>
 
-            <div className="overlap">
 
-            </div>
+            
         </header>
     )
 }
