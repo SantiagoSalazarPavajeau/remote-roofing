@@ -24,9 +24,11 @@ const MockNav = () => {
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
         >
-            <Nav.Link href="/home"> Active </Nav.Link>
-            <Nav.Link eventKey="link-1"> FAQ </Nav.Link>
+            <h3>
+            <Nav.Link href="/home"> Home </Nav.Link>
+            <Nav.Link eventKey="link-1"> FAQ  </Nav.Link>
             <Nav.Link eventKey="disabled" disabled> Services </Nav.Link>
+            </h3>
         </Nav>
         </div>
 

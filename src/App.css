@@ -27,17 +27,18 @@
 
 .roof {
   background-image: url("roof.jpg");
+  filter: contrast(120%);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
 }
 
+
+
 .top-container-padding{
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
   grid-column: left/right;
 }
 
@@ -51,6 +52,10 @@
 .logo{
   height: 30px;
   width: 82px;
+}
+.phone-number{
+  color: white;
+  font-weight: bold;
 }
 
 .mid-nav {
@@ -69,7 +74,8 @@
   justify-content: start;
   width: 100%;
   height: 50px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .title-text{
@@ -80,7 +86,8 @@
   justify-content: start;
   width: 100%;
   height: 50px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .subtitle-text{
   color: #fff
@@ -96,7 +103,7 @@
 }
 
 input[type=text] {
-  width: 100%;
+  width: 70%;
   font-size: 16px;
   padding: 12px 20px;
   margin: 8px 0;
@@ -123,7 +130,7 @@ button{
   position: absolute;
   margin: 0 auto;
   height: 150px;
-  width: 80%;
+  width: 800px;
   top: 430px;
 }
 .white-area {
