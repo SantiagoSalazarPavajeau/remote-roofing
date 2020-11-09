@@ -27,7 +27,7 @@
 
 .roof {
   background-image: url("roof.jpg");
-  filter: contrast(120%);
+  filter: contrast(100%);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
