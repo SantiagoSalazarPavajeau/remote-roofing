@@ -145,6 +145,7 @@ button{
 
 
 .overlap {
+
   border-radius: 25px;
   background: #0059bf;
   position: absolute;
@@ -153,6 +154,18 @@ button{
   width: 800px;
   top: 430px;
 }
+.options{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+.options-text{
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: larger;
+}
+
 .white-area {
   background: whitesmoke;
   grid-column: left/right;
